@@ -1,9 +1,8 @@
 
 import React from 'react';
-// @ts-ignore
-import Katex from 'react-katex';
+import 'katex/dist/katex.min.css';
+import { InlineMath, BlockMath } from 'react-katex';
 
-const { InlineMath, BlockMath } = Katex;
 
 interface MathProps {
   math: string;
